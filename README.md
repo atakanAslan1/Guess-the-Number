@@ -27,8 +27,9 @@ In this game, the computer will generate a random number between a specified ran
 
 ## Screenshots
 <img width="1430" alt="screenshot" src="https://github.com/atakanAslan1/Guess-the-Number/assets/107197019/f5b2b503-1b68-4d07-9d4b-08d98e87eed4">
-<img width="1430" alt="screenshot" src="https://github.com/atakanAslan1/Guess-the-Number/assets/107197019/c4018a5a-bfb4-464e-a235-c8a274f4ae37">
-<img width="1430" alt="screenshot" src="https://github.com/atakanAslan1/Guess-the-Number/assets/107197019/b8388813-681b-4f2b-b364-59b9aadab941">
+<img width="1434" alt="screenshot" src="https://github.com/atakanAslan1/Guess-the-Number/assets/107197019/45810e83-dc43-4a99-be7f-491b8c69e6bd">
+<img width="1434" alt="screenshot" src="https://github.com/atakanAslan1/Guess-the-Number/assets/107197019/a8a88bd4-145a-4e82-9f0f-616304f3967c">
+
 
 
 
