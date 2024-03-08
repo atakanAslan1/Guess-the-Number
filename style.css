@@ -1,0 +1,155 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to right, #FF6F91, #FF9671);
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+
+    height: 80%;
+    width: 50%;
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FF9671;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+label {
+    position: relative;
+}
+.guessed-number {
+    position: relative;
+    padding: 1rem;
+    font-size: 24px;
+    border-radius: 1rem;
+    border: none;
+    background-color: #F9F871;
+
+}
+
+.guessed-number::placeholder {
+    color: rgb(119, 118, 118);
+    font-size: 1.2rem;
+
+}
+
+
+
+.submit-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 1rem;
+    font-size: 24px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #FF6F91;
+    color: white;
+}
+
+h2 {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius:1rem ;
+}
+
+.new-game-button {
+    padding: 1rem;
+    font-size: 24px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #FF6F91;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: 80%;
+    }
+    
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 90%;
+        height: 70%;
+        font-size: 36px;
+    }
+
+    button {
+        font-size: 36px;
+    }
+    input {
+        font-size: 36px;
+
+    }
+    
+}
+
+@media screen and (min-width: 280px) {
+    .container {
+        width: 90%;
+        height: 80%;
+
+    }
+
+    
+    .guessed-number {
+        position: relative;
+        padding: 1rem;
+        font-size: 18px;
+        border-radius: 1rem;
+        border: none;
+        background-color: #F9F871;
+    
+    }
+
+    .submit-button {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: .8rem;
+        font-size: 16px;
+        height: 100%;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        background-color: #FF6F91;
+        color: white;
+    }
+
+    .guessed-number::placeholder {
+        color: rgb(119, 118, 118);
+        font-size: 1rem;
+    
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+    
+}
